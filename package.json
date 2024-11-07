@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "deploy": "wrangler publish",
+    "cf-page-vless": "nx build cf-page-vless",
     "dev-vless": "wrangler dev src/worker-vless.js"
   },
   "author": "",
